@@ -1,0 +1,4 @@
+# 可选依赖：安装后自动优先使用 requests 作为 HTTP 后端；
+# 未安装时自动降级到标准库 urllib，功能与行为完全一致。
+# 安装：pip install -r requirements.txt
+requests>=2.28,<3
